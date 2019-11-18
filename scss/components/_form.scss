@@ -1,0 +1,29 @@
+form {
+    input, textarea, select {
+       width: 100%;
+       border: solid 1px lightgray;
+       padding: 10px 8px;
+       border-radius: 4px;
+       &:focus {
+           outline-color: $primary-color;
+       }
+   }
+   [type="submit"] {
+       background: $secondary-color;
+       color: #fff;
+       border: none;
+       transition: background .3s;
+       &:hover {
+           background: $primary-color;
+       }
+   }
+}
+
+@media(min-width: 800px) {
+    form {
+        margin-left: 25px;
+        [type="submit"] {
+            width: 20%;
+        }
+    }
+}

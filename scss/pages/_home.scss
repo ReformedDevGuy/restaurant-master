@@ -1,0 +1,22 @@
+.bread-bck {
+  background: url("../images/tasteful-recipes-img.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 15% 0;
+  // background-attachment: fixed;
+}
+
+.dessert-bck {
+  background: url("../images/the-perfect-blend-img.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 15% 0px;
+  // background-attachment: fixed;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 8px;
+}
+
+.side-by-side {
+  display: flex;
+}

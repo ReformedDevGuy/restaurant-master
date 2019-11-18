@@ -1,0 +1,20 @@
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: $secondary-color;
+  // color: #fff;
+  height: 100vh;
+  // overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  transition: opacity 0.45s ease;
+}
+
+.finish-loading {
+  opacity: 0;
+  pointer-events: none;
+}

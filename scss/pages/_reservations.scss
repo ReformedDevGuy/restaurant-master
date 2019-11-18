@@ -1,0 +1,56 @@
+.hero--reservation {
+  height: 55vh;
+}
+.reservations-img {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/05/contact-food.jpg");
+  // background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+  //   url("http://www.performerprosites.com/development/clients/showpalace/wp-content/uploads/2014/05/tasteful-recipies-dinner-theatre.jpg");
+  background-size: cover;
+}
+.hero__subtitle {
+  color: #fff;
+  font-size: 12px !important;
+  letter-spacing: initial !important;
+}
+
+#reservation-form {
+  input,
+  select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.private-room-img {
+  height: 350px;
+  object-fit: fill;
+}
+
+#champainge-section {
+  padding: 2.2% 2%;
+  background: lighten($color: $primary-color, $amount: 10%);
+  color: #fff;
+}
+
+@media (min-width: 800px) {
+  .hero__subtitle {
+    font-size: 16px !important;
+  }
+  #reservation-form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    input,
+    select {
+      flex: 1 1 20%;
+      margin-bottom: 0;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+    [type="submit"] {
+      flex: 0 0 20%;
+      margin: 30px auto 0;
+    }
+  }
+}

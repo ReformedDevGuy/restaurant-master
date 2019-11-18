@@ -1,0 +1,27 @@
+.link {
+  text-decoration: none;
+}
+
+.link--secondary {
+  color: lighten($color: $secondary-color, $amount: 75%);
+  font-family: "Cabin", sans-serif;
+  &:hover,
+  &:active {
+    color: $primary-color;
+  }
+}
+
+.link--primary {
+  color: $primary-color;
+  font-weight: bold;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: $primary-color;
+  }
+}

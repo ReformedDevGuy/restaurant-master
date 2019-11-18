@@ -1,0 +1,13 @@
+section {
+  padding: 5% 0;
+  overflow: hidden;
+}
+
+@media (min-width: 800px) {
+  section .row {
+    display: flex;
+  }
+  .col {
+    flex: 1;
+  }
+}

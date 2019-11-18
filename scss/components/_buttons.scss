@@ -1,0 +1,9 @@
+.button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    &:hover svg path {
+        fill: $primary-color;
+    }
+}

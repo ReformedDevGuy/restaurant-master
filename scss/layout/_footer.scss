@@ -1,0 +1,12 @@
+footer {
+    background: $secondary-color;
+    padding: 2% 0;
+    .container .row {
+        align-items: center;
+    }
+}
+@media(min-width: 800px) {
+    footer .row {
+        display: flex;
+    }
+}
